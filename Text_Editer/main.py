@@ -1,58 +1,11 @@
 import tkinter as tk
-from tkinter import filedialog, messagebox, ttk
-
-from gtts import gTTS
+from tkinter import filedialog, messagebox
 
 
 class Text_To_Speak:
     def __init__(self, root):
         self.root = root
         self.changes_done = False
-        self.language_mapping = {
-            'English': 'en',
-            'French': 'fr',
-            'German': 'de',
-            'Italian': 'it',
-            'Spanish': 'es',
-            'Portuguese': 'pt',
-            'Russian': 'ru',
-            'Japanese': 'ja',
-            'Hindi': 'hi',
-            'Korean': 'ko',
-            'Chinese': 'zh',
-            'Arabic': 'ar',
-            'Dutch': 'nl',
-            'Turkish': 'tr',
-            'Polish': 'pl',
-            'Swedish': 'sv',
-            'Danish': 'da',
-            'Norwegian': 'no',
-            'Finnish': 'fi',
-            'Greek': 'el',
-            'Czech': 'cs',
-            'Hungarian': 'hu',
-            'Romanian': 'ro',
-            'Catalan': 'ca',
-            'Vietnamese': 'vi',
-            'Thai': 'th',
-            'Indonesian': 'id',
-            'Slovak': 'sk',
-            'Croatian': 'hr',
-            'Bulgarian': 'bg',
-            'Serbian': 'sr',
-            'Ukrainian': 'uk',
-            'Malay': 'ms',
-            'Hebrew': 'he',
-            'Bengali': 'bn',
-            'Tamil': 'ta',
-            'Telugu': 'te',
-            'Kannada': 'kn',
-            'Marathi': 'mr',
-            'Gujarati': 'gu',
-            'Sinhala': 'si',
-            'Urdu': 'ur'
-        }
-
         self.setup_ui()
 
     def setup_ui(self):
@@ -73,12 +26,8 @@ class Text_To_Speak:
         button_1 = tk.Button(frame_1, text='Open File', command=self.open_file)
         button_1.grid(row=0, column=0, sticky='ew', padx=5, pady=5)
 
-        self.dropdown = ttk.Combobox(frame_1, values=list(self.language_mapping.keys()), state='readonly')
-        self.dropdown.current(0)
-        self.dropdown.grid(row=1, column=0, sticky='ew', padx=5, pady=5)
-
-        button_2 = tk.Button(frame_1, text='Convert', command=self.save_file)
-        button_2.grid(row=2, column=0, sticky='ew', padx=5, pady=5)
+        button_2 = tk.Button(frame_1, text='Save File', command=self.save_file)
+        button_2.grid(row=1, column=0, sticky='ew', padx=5, pady=5)
 
         # text_box
         self.text_box = tk.Text(self.root)
@@ -106,19 +55,12 @@ class Text_To_Speak:
             return
 
     def save_file(self):
-        file_path = filedialog.asksaveasfilename(title="Save file", filetypes=[("mp3", '*.mp3'), ("All Files", "*.*")])
+        file_path = filedialog.asksaveasfilename(title="Save file", filetypes=[("text", '*.txt'), ("All Files", "*.*")])
         if file_path:
-            try:
+            with open(file_path, 'w') as file:
                 output = self.text_box.get(1.0, tk.END)
-                select_language = self.language_mapping[self.dropdown.get()]
-                voices = gTTS(text=output, lang=select_language, slow=False)
-                voices.save(f'{file_path}.mp3')
+                file.write(output)
                 self.root.title(f'Text to Speach {file_path}')
-                tk.messagebox.showinfo('Success', 'Text to Speach Conversion Complete!')
-
-            except Exception as e:
-                tk.messagebox.showerror('ERROR', f'Fail to Convert: {e}')
-
         else:
             return
 
