@@ -1,0 +1,12 @@
+Current weather conditions (temperature, humidity, wind speed, etc.)
+Weather forecast for the next few days
+Location-based weather (using GPS or user input)
+
+
+open weather = https://home.openweathermap.org/api_keys
+
+install geopy
+install timezonefinder
+install pytz
+
+°
