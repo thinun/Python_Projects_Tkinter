@@ -8,7 +8,6 @@ from PIL import ImageTk, Image
 from geopy.geocoders import Nominatim
 from timezonefinder import TimezoneFinder
 
-
 def get_weather():
     try:
         city = search_entry.get()
