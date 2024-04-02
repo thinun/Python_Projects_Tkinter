@@ -10,3 +10,5 @@ Text Editor: A simple text editor with features like saving, opening, and editin
 Text-to-Speech converter: simple text-to-speech converter with features like saving, opening text files, editing text files, and converting them to different
                           text-to-speech languages from a language list
 
+weather Application 
+
