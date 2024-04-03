@@ -4,8 +4,22 @@
     <h3 align="center">A repository of Python projects built with Tkinter</h3>
     <h2 align="center">Project List</h2>
     <ul align="left">
-        <li><strong>Text Editor:</strong> A simple text editor with features like saving, opening, and editing text files.</li>
-        <li><strong>Text-to-Speech Converter:</strong> A simple text-to-speech converter with features like saving, opening text files, editing text files, and converting them to different text-to-speech languages from a language list.</li>
+         <li><strong>Text Editer</strong>
+            <ul>
+                <li>Open and read text files</li>
+                <li>Text file editing</li>
+                <li>Saving files</li>
+            </ul>
+        </li>
+        <li><strong>Text to Speech</strong>
+            <ul>
+                <li>Open and read text files for conversion</li>
+                <li>Select from multiple languages for speech synthesis</li>
+                <li>Choose between male and female voices</li>
+                <li>Save the converted text as an MP3 file</li>
+                <li>Speak the text using selected voice and language</li>
+            </ul>
+        </li>
         <li><strong>Weather Application:</strong>
             <ul>
                 <li>User Interface (UI) Design</li>
@@ -17,6 +31,13 @@
             </ul>
         </li>
         <li><strong>Calculater</strong>
+            <ul>
+                <li>User Interface</li>
+                <li>Basic arithmetic operations and Parentheses, percentage, and decimal point functionality</li>
+                <li>Clear (CR) button to reset the display</li>
+                <li>Error handling</li>
+            </ul>
+        </li>      
     </ul>
     <div class="profile">
         <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
