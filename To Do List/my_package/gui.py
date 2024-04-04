@@ -45,7 +45,7 @@ def move_task(check_var, task_text, check_button):
 
 
 window = Tk()
-
+window.title('To-Do List')
 window.geometry("478x546")
 window.configure(bg='black')
 
