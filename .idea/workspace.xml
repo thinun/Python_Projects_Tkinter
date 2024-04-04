@@ -6,20 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cee0ca7b-cb8c-471c-b6ba-cce0eb70caf2" name="Changes" comment="files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/To Do List/Document.rtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/To Do List/Steps.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/To Do List/build/README.md.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/To Do List/build/my_package/assets/frame0/image_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/To Do List/build/my_package/assets/frame0/image_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/To Do List/build/my_package/assets/frame0/image_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/To Do List/build/my_package/gui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/To Do List/build/my_package/module1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/To Do List/build/requirements.txt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/To Do List/done_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/To Do List/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/To Do List/sun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/To Do List/to_do_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/To Do List/to_do_2.jfif" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +43,7 @@
     &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -208,6 +195,7 @@
       <updated>1712149961976</updated>
       <workItem from="1712149964583" duration="1719000" />
       <workItem from="1712201367767" duration="11999000" />
+      <workItem from="1712215150034" duration="403000" />
     </task>
     <task id="LOCAL-00001" summary="files">
       <option name="closed" value="true" />
@@ -225,7 +213,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712203379837</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="files">
+      <option name="closed" value="true" />
+      <created>1712215175059</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712215175059</updated>
+    </task>
+    <task id="LOCAL-00004" summary="files">
+      <option name="closed" value="true" />
+      <created>1712215230484</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712215230484</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
