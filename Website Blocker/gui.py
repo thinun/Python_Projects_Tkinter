@@ -1,50 +1,84 @@
+import os
+import re
 import tkinter as tk
 import tkinter.messagebox as messagebox
 
 host_path = r"C:\Windows\System32\drivers\etc\hosts"
+block_list = []
+
+
+def validate_url(url):
+    pattern = r'^(?:https?://)?(?:www\.)?[\w.-]+\.\w+$'
+    return bool(re.match(pattern, url))
 
 
 # function to add website to blocklist
 def add_to_block_list():
     web_site_name = entry_1.get()
-    try:
-        with open(host_path, 'a') as file:
-            if host_path:
-                file.write(f'127.0.0.1 {web_site_name}\n')
 
-                diplay_output_label.config(text=f'Successfully added to the BLockList\n{web_site_name} ')
+    if len(web_site_name) > 1:
+        if validate_url(web_site_name):
+            try:
+                if os.path.exists(host_path):
+                    found = False
+                    with open(host_path, 'r') as file:
+                        lines = file.readlines()
+                        for line in lines:
+                            if web_site_name in line:
+                                found = True
+                                break
 
-            else:
-                diplay_output_label.config(text='ERROR host file dose not exist')
-    except Exception as e:
-        messagebox.showerror('ERROR', f'ERROR {e}')
+                    if not found:
+                        with open(host_path, 'a') as file:
+                            file.write(f'127.0.0.1 {web_site_name}\n')
+                        diplay_output_label.config(text=f'Successfully added to the BlockList\n{web_site_name} ')
+                    else:
+                        messagebox.showinfo('Info', f"Website {web_site_name} already exists in the block list!")
+                else:
+                    diplay_output_label.config(text='ERROR host file does not exist')
+            except Exception as e:
+                messagebox.showerror('ERROR', f'ERROR {e}')
+        else:
+            messagebox.showerror('ERROR', f'Invalid URL: {web_site_name}')
+    else:
+        messagebox.showerror('ERROR', f'Please enter URL')
 
 
 # function to remove website
 def remove_from_block_list():
     website_name = entry_1.get()
-    try:
+    if len(website_name) > 1:
+        if validate_url(website_name):
+            try:
+                if os.path.exists(host_path):
+                    with open(host_path, 'r+') as file:
+                        lines = file.readlines()
+                        file.seek(0)
+                        print(len(lines))
+                        if len(lines) > 0:
+                            for line in lines:
+                                if website_name not in line:
+                                    file.write(line)
+                                    diplay_output_label.config(text=f'Website Removed: {website_name}')
+                                else:
+                                    pass
+                        else:
+                            diplay_output_label.config(text="Block List is empty !!")
+                        file.truncate()
 
-        if host_path:
-            with open(host_path, 'r+') as file:
-                lines = file.readlines()
-                file.seek(0)
-                for line in lines:
-                    if website_name not in line:
-                        file.write(line)
-
-                file.truncate()
-            diplay_output_label.config(text=f'Website Removed: {website_name}')
+                else:
+                    pass
+            except Exception as e:
+                messagebox.showerror('ERROR', f'ERROR host file {e}')
         else:
-            pass
-    except Exception as e:
-        messagebox.showerror('ERROR', f'ERROR host file {e}')
+            messagebox.showerror('ERROR', f'Invalid URL: {website_name}')
+    else:
+        messagebox.showerror('ERROR', f'Please enter URL')
 
 
 def check_website_block():
     try:
-        block_list = []
-        if host_path:
+        if os.path.exists(host_path):
             with open(host_path, 'r') as file:
                 lines = file.readlines()
                 for line in lines:
@@ -61,6 +95,9 @@ def check_website_block():
             pass
         if block_list:
             diplay_output_label.config(text='\n'.join(block_list))
+        if len(block_list) == 0:
+            diplay_output_label.config(text='No website blocked!')
+
     except Exception as e:
         messagebox.showerror('ERROR', f'ERROR host file {e}')
 
