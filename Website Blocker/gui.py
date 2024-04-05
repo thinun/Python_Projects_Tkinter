@@ -1,7 +1,7 @@
 import tkinter as tk
 import tkinter.messagebox as messagebox
 
-host_path = r"C:\\Windows\\System32\\drivers\\etc\\hosts"
+host_path = r"C:\Windows\System32\drivers\etc\hosts"
 
 
 # function to add website to blocklist
@@ -12,7 +12,7 @@ def add_to_block_list():
             if host_path:
                 file.write(f'127.0.0.1 {web_site_name}\n')
 
-                diplay_output_label.config(text=f'{web_site_name} Successfully added to the BLockList')
+                diplay_output_label.config(text=f'Successfully added to the BLockList\n{web_site_name} ')
 
             else:
                 diplay_output_label.config(text='ERROR host file dose not exist')
