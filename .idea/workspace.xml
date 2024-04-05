@@ -195,6 +195,7 @@
       <workItem from="1712201367767" duration="11999000" />
       <workItem from="1712215150034" duration="403000" />
       <workItem from="1712215570414" duration="86000" />
+      <workItem from="1712215676102" duration="281000" />
     </task>
     <task id="LOCAL-00001" summary="files">
       <option name="closed" value="true" />
@@ -236,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712215645075</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="files">
+      <option name="closed" value="true" />
+      <created>1712215950035</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712215950035</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +259,7 @@
     <SUITE FILE_PATH="coverage/Python_Projects_Tkinter_$test.coverage" NAME="test Coverage Results" MODIFIED="1712214802696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/To Do List/build/my_package" />
     <SUITE FILE_PATH="coverage/Python_Projects_Tkinter_$gui__2_.coverage" NAME="gui (2) Coverage Results" MODIFIED="1712215100285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/To Do List/my_package" />
     <SUITE FILE_PATH="coverage/Python_Projects_Tkinter_$module1.coverage" NAME="module1 Coverage Results" MODIFIED="1712213591863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/To Do List/build/my_package" />
+    <SUITE FILE_PATH="coverage/gui_py$gui__2_.coverage" NAME="gui (2) Coverage Results" MODIFIED="1712215775771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/To Do List/my_package" />
     <SUITE FILE_PATH="coverage/Python_Projects_Tkinter_$gui.coverage" NAME="gui Coverage Results" MODIFIED="1712151677896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/To Do List/build" />
     <SUITE FILE_PATH="coverage/Python_Projects_Tkinter_$gui__1_.coverage" NAME="gui (1) Coverage Results" MODIFIED="1712214818142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/To Do List/build/my_package" />
   </component>
