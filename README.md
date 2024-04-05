@@ -46,6 +46,14 @@
                 <li>clean and visually appealing user interface </li>
             </ul>
         </li> 
+          <li><strong>Website Blocker</strong>
+            <ul>
+                <li>Allows users to add URLs to a block list </li>
+                <li>Enables users to remove URLs from the block list</li>
+                <li>Displays the current list of blocked websites</li>
+                <li>Provides a user-friendly interface  </li>
+            </ul>
+        </li> 
     </ul>
     <div class="profile">
         <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
