@@ -1,9 +1,6 @@
 import tkinter as tk
+import backend
 
-
-def on_configure(event):
-    # Update scrollregion after starting 'mainloop'
-    canvas.configure(scrollregion=canvas.bbox('all'))
 
 
 root = tk.Tk()
@@ -57,17 +54,15 @@ close_button = tk.Button(root, text="Close")
 close_button.place(x=300, y=80, width=85, height=25)
 
 # scrollbar
-canvas = tk.Canvas(root, width=360, height=120, bg='red')
-canvas.place(x=20, y=120)
 
-scrollbar = tk.Scrollbar(root, command=canvas.yview)
-scrollbar.place(x=380, y=120, height=130)  # Adjusted scrollbar position
 
-canvas.configure(yscrollcommand=scrollbar.set)
+list_box = tk.Listbox()
+list_box.place(x=65, y=125, width=310, height=100)
 
-frame = tk.Frame(canvas)
-canvas.create_window((0, 0), window=frame, anchor='nw')
+scroll_bar = tk.Scrollbar(root)
+scroll_bar.place(x=370, y=125, height=100, width=20)
 
-frame.bind("<Configure>", on_configure)
+list_box.configure(yscrollcommand=scroll_bar.set)
+scroll_bar.config(command=list_box.yview)
 
 root.mainloop()

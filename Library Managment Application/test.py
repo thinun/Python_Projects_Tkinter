@@ -53,5 +53,5 @@ def update(quantity, price, item):
 
 print(show_all_items())
 
-update(50,10,'apple')
+update(50, 10, 'apple')
 print(show_all_items())
