@@ -1,0 +1,126 @@
+Index: Library Managment Application/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Library Managment Application/.idea/misc.xml b/Library Managment Application/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1712376746905)
++++ b/Library Managment Application/.idea/misc.xml	(date 1712376746905)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: Library Managment Application/.idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Library Managment Application/.idea/inspectionProfiles/profiles_settings.xml b/Library Managment Application/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(date 1712376746933)
++++ b/Library Managment Application/.idea/inspectionProfiles/profiles_settings.xml	(date 1712376746933)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: Library Managment Application/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Library Managment Application/.idea/vcs.xml b/Library Managment Application/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1712376746961)
++++ b/Library Managment Application/.idea/vcs.xml	(date 1712376746961)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Library Managment Application/.idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Library Managment Application/.idea/.gitignore b/Library Managment Application/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1712376737416)
++++ b/Library Managment Application/.idea/.gitignore	(date 1712376737416)
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
+Index: Library Managment Application/.idea/inspectionProfiles/Project_Default.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Library Managment Application/.idea/inspectionProfiles/Project_Default.xml b/Library Managment Application/.idea/inspectionProfiles/Project_Default.xml
+new file mode 100644
+--- /dev/null	(date 1712376746766)
++++ b/Library Managment Application/.idea/inspectionProfiles/Project_Default.xml	(date 1712376746766)
+@@ -0,0 +1,10 @@
++<component name="InspectionProjectProfileManager">
++  <profile version="1.0">
++    <option name="myName" value="Project Default" />
++    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
++      <Languages>
++        <language minSize="46" name="Python" />
++      </Languages>
++    </inspection_tool>
++  </profile>
++</component>
+\ No newline at end of file
+Index: Library Managment Application/.idea/Library Managment Application.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Library Managment Application/.idea/Library Managment Application.iml b/Library Managment Application/.idea/Library Managment Application.iml
+new file mode 100644
+--- /dev/null	(date 1712376746837)
++++ b/Library Managment Application/.idea/Library Managment Application.iml	(date 1712376746837)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Library Managment Application/.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Library Managment Application/.idea/modules.xml b/Library Managment Application/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1712376746866)
++++ b/Library Managment Application/.idea/modules.xml	(date 1712376746866)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/Library Managment Application.iml" filepath="$PROJECT_DIR$/.idea/Library Managment Application.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
