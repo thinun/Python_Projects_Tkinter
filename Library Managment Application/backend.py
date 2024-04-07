@@ -52,4 +52,3 @@ def update_entry(id, title, year, author, isbn):
     conn.commit()
     conn.close()
 
-

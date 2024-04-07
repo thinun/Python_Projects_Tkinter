@@ -1,6 +1,40 @@
 import tkinter as tk
+
 import backend
 
+
+def get_selected_row(event):
+    global selected_row_id
+    index = list_box.curselection()[0]
+    selected_row = list_box.get(index)
+    selected_row_id = selected_row[0]
+    print(selected_row)
+
+
+def view_command():
+    list_box.delete(0, tk.END)
+    data = backend.view_entries()
+    for entry in data:
+        list_box.insert(tk.END, entry)
+
+
+def search_command():
+    list_box.delete(0, tk.END)
+    for entry in backend.search_entry(title=title_entry.get(), author=author_entry.get(), year=year_entry.get(),
+                                      isbn=isbn_entry.get()):
+        list_box.insert(tk.END, str(entry))
+
+
+def add_command():
+    backend.add_entry(title=title_entry.get(), author=author_entry.get(), year=year_entry.get(), isbn=isbn_entry.get())
+    list_box.delete(0, tk.END)
+    list_box.insert(tk.END, f"Added Successfully ")
+
+
+def delete_command():
+    backend.delete_entry(selected_row_id)
+    list_box.delete(0, tk.END)
+    list_box.insert(tk.END, f"Deleted Successfully ")
 
 
 root = tk.Tk()
@@ -35,19 +69,19 @@ isbn_entry = tk.Entry(root)
 isbn_entry.place(x=65, y=95)
 
 # buttons
-view_all_button = tk.Button(root, text="View All Books")
+view_all_button = tk.Button(root, text="View All Books", command=view_command)
 view_all_button.place(x=200, y=20, width=85, height=25)
 
-search_button = tk.Button(root, text="Search Entry")
+search_button = tk.Button(root, text="Search Entry", command=search_command)
 search_button.place(x=300, y=20, width=85, height=25)
 
-add_entry_button = tk.Button(root, text="Add Entry")
+add_entry_button = tk.Button(root, text="Add Entry", command=add_command)
 add_entry_button.place(x=200, y=50, width=85, height=25)
 
-update_entry_button = tk.Button(root, text="Update Entry")  # Fixed: Updated button name
+update_entry_button = tk.Button(root, text="Update Entry")
 update_entry_button.place(x=300, y=50, width=85, height=25)
 
-delete_entry_button = tk.Button(root, text="Delete Entry")
+delete_entry_button = tk.Button(root, text="Delete Entry", command=delete_command)
 delete_entry_button.place(x=200, y=80, width=85, height=25)
 
 close_button = tk.Button(root, text="Close")
@@ -64,5 +98,7 @@ scroll_bar.place(x=370, y=125, height=100, width=20)
 
 list_box.configure(yscrollcommand=scroll_bar.set)
 scroll_bar.config(command=list_box.yview)
+
+list_box.bind("<<ListboxSelect>>", get_selected_row)
 
 root.mainloop()
