@@ -24,6 +24,10 @@ def view_command():
     data = backend.view_entries()
     for entry in data:
         list_box.insert(tk.END, entry)
+    title_entry.delete(0, tk.END)
+    year_entry.delete(0, tk.END)
+    author_entry.delete(0, tk.END)
+    isbn_entry.delete(0, tk.END)
 
 
 def search_command():
