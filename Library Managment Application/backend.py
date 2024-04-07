@@ -51,4 +51,3 @@ def update_entry(id, title, year, author, isbn):
     cursor.execute("UPDATE books SET title=?, year=?, author=?, isbn=? WHERE id=?", (title, year, author, isbn, id))
     conn.commit()
     conn.close()
-

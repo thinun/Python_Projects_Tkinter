@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cee0ca7b-cb8c-471c-b6ba-cce0eb70caf2" name="Changes" comment="files">
-      <change beforePath="$PROJECT_DIR$/Library Managment Application/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Managment Application/.idea/Library Managment Application.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Managment Application/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Managment Application/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Managment Application/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Managment Application/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Managment Application/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Managment Application/boader.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Managment Application/backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Managment Application/backend.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library Managment Application/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Managment Application/gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Managment Application/interface.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Managment Application/lite_1.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library Managment Application/lite_1.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Managment Application/test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +135,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Projects(Tkinter)" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Library Managment Application" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Library Managment Application/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Projects(Tkinter)" />
       <option name="ENV_FILES" value="" />
@@ -160,29 +173,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Library Managment Application/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Projects(Tkinter)" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/To Do List/my_package" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/To Do List/my_package/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,10 +207,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.gui (3)" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.backend" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.test2" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +240,7 @@
       <workItem from="1712403814466" duration="1322000" />
       <workItem from="1712411229899" duration="871000" />
       <workItem from="1712412507087" duration="4280000" />
-      <workItem from="1712457186629" duration="14778000" />
+      <workItem from="1712457186629" duration="24401000" />
     </task>
     <task id="LOCAL-00001" summary="files">
       <option name="closed" value="true" />
@@ -412,7 +402,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712480355342</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="files">
+      <option name="closed" value="true" />
+      <created>1712482358622</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1712482358622</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,13 +425,13 @@
     <SUITE FILE_PATH="coverage/Python_Projects_Tkinter_$gui__2_.coverage" NAME="gui (2) Coverage Results" MODIFIED="1712215100285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/To Do List/my_package" />
     <SUITE FILE_PATH="coverage/gui_py$test.coverage" NAME="test Coverage Results" MODIFIED="1712380032865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/To Do List/my_package" />
     <SUITE FILE_PATH="coverage/Python_Projects_Tkinter_$gui.coverage" NAME="gui Coverage Results" MODIFIED="1712151677896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/To Do List/build" />
-    <SUITE FILE_PATH="coverage/gui_py$main.coverage" NAME="main Coverage Results" MODIFIED="1712293439103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Website Blocker" />
+    <SUITE FILE_PATH="coverage/gui_py$main.coverage" NAME="main Coverage Results" MODIFIED="1712491184194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Library Managment Application" />
     <SUITE FILE_PATH="coverage/gui_py$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1712405021803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Library Managment Application" />
-    <SUITE FILE_PATH="coverage/gui_py$backend.coverage" NAME="backend Coverage Results" MODIFIED="1712472822291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Library Managment Application" />
+    <SUITE FILE_PATH="coverage/gui_py$backend.coverage" NAME="backend Coverage Results" MODIFIED="1712489879467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Library Managment Application" />
     <SUITE FILE_PATH="coverage/Python_Projects_Tkinter_$module1.coverage" NAME="module1 Coverage Results" MODIFIED="1712213591863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/To Do List/build/my_package" />
     <SUITE FILE_PATH="coverage/gui_py$gui__2_.coverage" NAME="gui (2) Coverage Results" MODIFIED="1712215775771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/To Do List/my_package" />
     <SUITE FILE_PATH="coverage/gui_py$gui.coverage" NAME="gui Coverage Results" MODIFIED="1712319383149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Website Blocker" />
-    <SUITE FILE_PATH="coverage/gui_py$gui__3_.coverage" NAME="gui (3) Coverage Results" MODIFIED="1712482133191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Library Managment Application" />
+    <SUITE FILE_PATH="coverage/gui_py$gui__3_.coverage" NAME="gui (3) Coverage Results" MODIFIED="1712494050427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Library Managment Application" />
     <SUITE FILE_PATH="coverage/Python_Projects_Tkinter_$gui__1_.coverage" NAME="gui (1) Coverage Results" MODIFIED="1712214818142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/To Do List/build/my_package" />
     <SUITE FILE_PATH="coverage/gui_py$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1712416663056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Library Managment Application" />
   </component>
