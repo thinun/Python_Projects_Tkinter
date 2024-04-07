@@ -21,7 +21,7 @@ def create_table():
 def add_item(item, quntity, price):
     conn = sqlite3.connect('lite.db')
     cursor = conn.cursor()
-    conn.execute('INSERT INTO store VALUES (?,?,?)', (item, quntity, price))
+    cursor.execute('INSERT INTO store VALUES (?,?,?)', (item, quntity, price))
     conn.commit()
     conn.close()
 
@@ -46,12 +46,8 @@ def delete_item(item):
 def update(quantity, price, item):
     conn = sqlite3.connect('lite.db')
     cursor = conn.cursor()
-    conn.execute('UPDATE store SET quantity=?, price=? WHERE item=?', (quantity, price, item))
+    cursor.execute('UPDATE store SET quantity=?, price=? WHERE item=?', (quantity, price, item))
     conn.commit()
     conn.close()
 
 
-print(show_all_items())
-
-update(50, 10, 'apple')
-print(show_all_items())
