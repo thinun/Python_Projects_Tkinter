@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cee0ca7b-cb8c-471c-b6ba-cce0eb70caf2" name="Changes" comment="files">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library Managment Application/backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Managment Application/backend.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Managment Application/lite_1.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library Managment Application/lite_1.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library Managment Application/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library Managment Application/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Managment Application/lite_1.db" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,8 +207,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.backend" />
-        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.gui (3)" />
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.test2" />
         <item itemvalue="Python.test" />
       </list>
@@ -243,7 +240,7 @@
       <workItem from="1712403814466" duration="1322000" />
       <workItem from="1712411229899" duration="871000" />
       <workItem from="1712412507087" duration="4280000" />
-      <workItem from="1712457186629" duration="624000" />
+      <workItem from="1712457186629" duration="5056000" />
     </task>
     <task id="LOCAL-00001" summary="files">
       <option name="closed" value="true" />
@@ -373,7 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712415964620</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="files">
+      <option name="closed" value="true" />
+      <created>1712457863642</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1712457863642</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,11 +395,11 @@
     <SUITE FILE_PATH="coverage/Python_Projects_Tkinter_$gui.coverage" NAME="gui Coverage Results" MODIFIED="1712151677896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/To Do List/build" />
     <SUITE FILE_PATH="coverage/gui_py$main.coverage" NAME="main Coverage Results" MODIFIED="1712293439103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Website Blocker" />
     <SUITE FILE_PATH="coverage/gui_py$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1712405021803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Library Managment Application" />
-    <SUITE FILE_PATH="coverage/gui_py$backend.coverage" NAME="backend Coverage Results" MODIFIED="1712457488633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Library Managment Application" />
+    <SUITE FILE_PATH="coverage/gui_py$backend.coverage" NAME="backend Coverage Results" MODIFIED="1712465201469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Library Managment Application" />
     <SUITE FILE_PATH="coverage/Python_Projects_Tkinter_$module1.coverage" NAME="module1 Coverage Results" MODIFIED="1712213591863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/To Do List/build/my_package" />
     <SUITE FILE_PATH="coverage/gui_py$gui__2_.coverage" NAME="gui (2) Coverage Results" MODIFIED="1712215775771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/To Do List/my_package" />
     <SUITE FILE_PATH="coverage/gui_py$gui.coverage" NAME="gui Coverage Results" MODIFIED="1712319383149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Website Blocker" />
-    <SUITE FILE_PATH="coverage/gui_py$gui__3_.coverage" NAME="gui (3) Coverage Results" MODIFIED="1712414478783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Library Managment Application" />
+    <SUITE FILE_PATH="coverage/gui_py$gui__3_.coverage" NAME="gui (3) Coverage Results" MODIFIED="1712460784348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Library Managment Application" />
     <SUITE FILE_PATH="coverage/Python_Projects_Tkinter_$gui__1_.coverage" NAME="gui (1) Coverage Results" MODIFIED="1712214818142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/To Do List/build/my_package" />
     <SUITE FILE_PATH="coverage/gui_py$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1712416663056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Library Managment Application" />
   </component>
