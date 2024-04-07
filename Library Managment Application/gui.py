@@ -8,7 +8,15 @@ def get_selected_row(event):
     index = list_box.curselection()[0]
     selected_row = list_box.get(index)
     selected_row_id = selected_row[0]
-    print(selected_row)
+    title_entry.delete(0, tk.END)
+    title_entry.insert(0, selected_row[1])
+    year_entry.delete(0, tk.END)
+    year_entry.insert(0, selected_row[2])
+    author_entry.delete(0, tk.END)
+    author_entry.insert(0, selected_row[3])
+    isbn_entry.delete(0, tk.END)
+    isbn_entry.insert(0, selected_row[4])
+    return selected_row_id
 
 
 def view_command():
@@ -28,13 +36,23 @@ def search_command():
 def add_command():
     backend.add_entry(title=title_entry.get(), author=author_entry.get(), year=year_entry.get(), isbn=isbn_entry.get())
     list_box.delete(0, tk.END)
-    list_box.insert(tk.END, f"Added Successfully ")
+    for entry in backend.view_entries():
+        list_box.insert(tk.END, entry)
 
 
 def delete_command():
     backend.delete_entry(selected_row_id)
     list_box.delete(0, tk.END)
-    list_box.insert(tk.END, f"Deleted Successfully ")
+    for entry in backend.view_entries():
+        list_box.insert(tk.END, entry)
+
+
+def update_command():
+    backend.update_entry(id=selected_row_id, title=title_entry.get(), author=author_entry.get(), year=year_entry.get(),
+                         isbn=isbn_entry.get())
+    list_box.delete(0, tk.END)
+    for entry in backend.view_entries():
+        list_box.insert(tk.END, entry)
 
 
 root = tk.Tk()
@@ -78,13 +96,13 @@ search_button.place(x=300, y=20, width=85, height=25)
 add_entry_button = tk.Button(root, text="Add Entry", command=add_command)
 add_entry_button.place(x=200, y=50, width=85, height=25)
 
-update_entry_button = tk.Button(root, text="Update Entry")
+update_entry_button = tk.Button(root, text="Update Entry", command=update_command)
 update_entry_button.place(x=300, y=50, width=85, height=25)
 
 delete_entry_button = tk.Button(root, text="Delete Entry", command=delete_command)
 delete_entry_button.place(x=200, y=80, width=85, height=25)
 
-close_button = tk.Button(root, text="Close")
+close_button = tk.Button(root, text="Close", command=root.destroy)
 close_button.place(x=300, y=80, width=85, height=25)
 
 # scrollbar
