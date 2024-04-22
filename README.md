@@ -54,6 +54,15 @@
                 <li>Provides a user-friendly interface  </li>
             </ul>
         </li> 
+        <li><strong>Libarary Management Application</strong>
+            <ul>
+                <li>Provides a user-friendly graphical interface</li>
+                <li>CRUD Operations</li>
+                <li>Interacts with a backend module for data storage.</li>
+                <li>Shows entries in a Listbox widget for easy viewing</li>
+                <li>ncludes error handling for a smooth user experience.</li>
+            </ul>
+        </li>
     </ul>
     <div class="profile">
         <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
